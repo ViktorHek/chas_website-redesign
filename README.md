@@ -36,6 +36,8 @@ Ni skapar en förenklad version av zooms hemsida så endast dessa delar behöver
 
 5. Gör sajten responsiv så att den funkar både på mobil och desktop.
 
+6. För att göra sidan tillgänglig använd landmarks i html-koden.
+
 ## Hur du lämnar in
 
 1. Skapa ett repo på github.
