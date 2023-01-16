@@ -5,18 +5,18 @@ I dagens uppgift ska ni designa om förstasidan på [zoom.us](https://zoom.us/) 
 ### Sätt upp projektet
 
 1. Öppna en terminal och gå med `cd` där du vill skapa projektet.
-2. Skriv `npm create vite@latest zoom-redesign`
+2. Skriv `npm create vite@latest zoom-redesign`.
 3. Välj React och sen Javascript i följande frågor.
-4. Installera tailwind genom att följa [dessa instruktioner](https://tailwindcss.com/docs/guides/vite)
+4. Installera tailwind genom att följa [dessa instruktioner](https://tailwindcss.com/docs/guides/vite).
 
 ## Hur du klarar uppgiften
 
-Ni skapar en förenklad version av zooms hemsida så endast dessa delar behöver vara med.
+Ni skapar en förenklad version av zooms hemsida så endast dessa delar behöver vara med:
 
 1. Navigering
 
 - Navigeringen ska bara vara en rad.
-- Knapparna i navigeringen ska tonas ner så att dom inte konkurrerar med knappen i Main Lockup
+- Knapparna i navigeringen ska tonas ner så att dom inte konkurrerar med knappen i Main Lockup.
 
 2. Hero-sektionen
 
