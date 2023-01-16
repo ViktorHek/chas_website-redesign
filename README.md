@@ -1,6 +1,6 @@
 # Redesigna Zooms hemsida
 
-I dagens uppgift ska ni designa om förstasidan på zoom.us för att göra den mer användarvänlig.
+I dagens uppgift ska ni designa om förstasidan på [zoom.us](https://zoom.us/) för att göra den mer användarvänlig.
 
 ### Sätt upp projektet
 
@@ -51,6 +51,7 @@ git push -u origin main
 ```
 
 3. Klicka på uppgiften i canvas och ange länken till ditt repo.
+
 
 ---
 
