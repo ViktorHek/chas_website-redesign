@@ -20,7 +20,7 @@ Ni skapar en förenklad version av zooms hemsida så endast dessa delar behöver
 
 2. Hero-sektionen
 
-- Behåll nuvarande Main Lockup men ersätt grafiken på höger sida med en passande bild. Använd t.ex. någon av (Zooms egna bilder)[https://explore.zoom.us/en/media-kit/#:~:text=Zoom%20Webinars-,Product%20Photos,-Zoom%20Meetings]. 
+- Behåll nuvarande Main Lockup men ersätt grafiken på höger sida med en passande bild. Använd t.ex. någon av [Zooms egna bilder](https://explore.zoom.us/en/media-kit/#:~:text=Zoom%20Webinars-,Product%20Photos,-Zoom%20Meetings). 
 - Övriga delar kan tas bort från hero-sektionen.
 
 3. "Make work less work"-sektionen
