@@ -15,12 +15,12 @@ Ni skapar en förenklad version av zooms hemsida så endast dessa delar behöver
 
 1. Navigering
 
-- Navigeringen ska bara vara en rad.
-- Knapparna i navigeringen ska tonas ner så att dom inte konkurrerar med knappen i Main Lockup.
+- Navigeringen ska bara vara på en rad.
+- Knapparna i navigeringen ska tonas ner så att dom inte konkurrerar med knappen i Main Lockup. Använd t.ex. en knapp som inte är ifylld utan har en border istället.
 
 2. Hero-sektionen
 
-- Behåll nuvarande Main Lockup men ersätt grafiken på höger sida med en passande bild.
+- Behåll nuvarande Main Lockup men ersätt grafiken på höger sida med en passande bild. Använd t.ex. någon av (Zooms egna bilder)[https://explore.zoom.us/en/media-kit/#:~:text=Zoom%20Webinars-,Product%20Photos,-Zoom%20Meetings]. 
 - Övriga delar kan tas bort från hero-sektionen.
 
 3. "Make work less work"-sektionen
@@ -36,7 +36,7 @@ Ni skapar en förenklad version av zooms hemsida så endast dessa delar behöver
 
 5. Gör sajten responsiv så att den funkar både på mobil och desktop.
 
-6. För att göra sidan tillgänglig använd landmarks i html-koden.
+6. För att göra sidan tillgänglig använd landmarks och semantic html.
 
 ## Hur du lämnar in
 
@@ -67,6 +67,6 @@ Efter denna uppgift ska ni kunna analysera en hemsida och komma med förslag på
 
 Klar? Här är lite mer att göra:
 
-1. Lägg till "Ready to get started?"-sektionen
-1. Lägg till en footer med valfritt innehåll
-1. Skapa sidor till alla länkar med valfritt innehåll
+1. Lägg till "Ready to get started?"-sektionen.
+1. Lägg till en footer med valfritt innehåll.
+1. Skapa sidor till alla länkar med valfritt innehåll.
