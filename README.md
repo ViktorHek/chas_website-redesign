@@ -6,7 +6,7 @@ I dagens uppgift ska ni designa om förstasidan på [zoom.us](https://zoom.us/) 
 
 1. Öppna en terminal och gå med `cd` där du vill skapa projektet.
 2. Skriv `npm create vite@latest zoom-redesign`.
-3. Välj React och sen Javascript i följande frågor.
+3. I följande frågor välj React och sen Javascript.
 4. Installera tailwind genom att följa [dessa instruktioner](https://tailwindcss.com/docs/guides/vite).
 
 ## Hur du klarar uppgiften
