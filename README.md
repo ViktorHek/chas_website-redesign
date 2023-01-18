@@ -11,7 +11,7 @@ I dagens uppgift ska ni designa om förstasidan på [zoom.us](https://zoom.us/) 
 
 ## Hur du klarar uppgiften
 
-Ni skapar en förenklad version av zooms hemsida så endast dessa delar behöver vara med:
+Ni skapar en förenklad version av zooms hemsida så inga animationer krävs och endast dessa delar behöver vara med:
 
 1. Navigering
 
