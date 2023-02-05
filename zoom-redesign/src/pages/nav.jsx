@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../style/nav.css";
 
 function Nav() {
   const [open, setOpen] = useState(false);
@@ -7,42 +8,32 @@ function Nav() {
   }
   return (
     <div className="main-nav-container">
-      <div className="center" style={{ justifyContent: "flex-end", position: 'relative', zIndex: 999 }}>
+      <div className="secondary-header">
         <div className="zoom-logo-container">
           <img
             src="https://st2.zoom.us/static/6.3.11036/image/new/topNav/Zoom_logo.svg"
             alt="logo"
-            style={{
-              height: "25px",
-              width: "auto",
-              marginLeft: "10px",
-              marginRight: "5px",
-              cursor: 'pointer'
-            }}
           />
         </div>
+        <span className="nav-small-top-text">Join</span>
         <span
-          style={{
-            color: "#666484",
-            fontSize: "16px",
-            textDecoration: "none",
-            lineHeight: "50px",
-            fontWeight: "600",
-          }}>
-          Join
-        </span>
-        <span
-          style={{
-            color: "#666484",
-            fontSize: "16px",
-            textDecoration: "none",
-            lineHeight: "50px",
-            fontWeight: "600",
-            margin: "10px 50px 10px 20px",
-          }}>
+          className="nav-small-top-text"
+          style={{ margin: "10px 50px 10px 20px" }}>
           Host
         </span>
-        <div className={open ? "hamburger-close" : "hamburger"} onClick={handleClick}>
+        <div className="secondary-header-text-container">
+          <span>Products</span>
+          <span>Solutions</span>
+          <span>Resources</span>
+          <span>Plans & Pricing</span>
+        </div>
+        <div className="secondary-header-button-container">
+          <button style={{ backgroundColor: "transparent" }}>Contact Sales</button>
+          <button style={{ backgroundColor: "#0f5af6", color: "#fff" }}>Sign Up Free</button>
+        </div>
+        <div
+          className={open ? "hamburger-close" : "hamburger"}
+          onClick={handleClick}>
           <span />
           <span />
           <span />
@@ -94,7 +85,7 @@ function Nav() {
           </li>
         </ul>
       </div>
-      {/* <div className="nav-text-container">
+      <div className="big-nav-text-container">
         <ul className="nav-ul">
           <li>
             <div style={{ height: "30px", width: "30px" }}>
@@ -130,7 +121,7 @@ function Nav() {
             <p>Sign in</p>
           </li>
         </ul>
-      </div> */}
+      </div>
     </div>
   );
 }

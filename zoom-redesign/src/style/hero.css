@@ -1,0 +1,119 @@
+.main-container {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+}
+
+.learn-more-container {
+  position: absolute;
+  top: 20px;
+  z-index: 2;
+  background: rgba(144, 224, 224, 0.1);
+  border: 1px solid #90e0e0;
+  border-radius: 25px;
+  padding: 5px;
+  color: #232333;
+  left: 20px;
+  max-width: none;
+  margin-right: 20px;
+}
+
+.learn-more-container > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  padding-right: 20px;
+  margin-left: 5px;
+  color: #232333;
+}
+.learn-more-container > span {
+  height: 20px;
+  width: 1px;
+  background-color: #90e0e0;
+  margin-right: 20px;
+}
+.learn-more-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.learn-more-link > p {
+  color: #0f5af6;
+}
+.learn-more-link > span {
+  height: 10px;
+  width: 10px;
+  border-right: 1px solid #0f5af6;
+  border-top: 1px solid #0f5af6;
+  transform: rotate(45deg);
+  margin-right: 15px;
+}
+
+.text-container {
+  padding: 119px 20px 60px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.header,
+.header > span {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  color: #00031f;
+}
+.header > span {
+  color: #0b5cff;
+}
+
+.sub-header {
+  font-size: 16px;
+  line-height: 120%;
+  margin-top: 20px;
+  font-weight: 400;
+  color: #00031f;
+}
+
+.img-container {
+  width: 100%;
+  height: 260px;
+  background-color: #f7f7f8;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.button-container > span {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  cursor: pointer;
+  color: #0b5cff;
+}
+
+@media only screen and (min-width: 770px) {
+    .main-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .learn-more-container {
+        top: 80px;
+    }
+    .img-container {
+        height: 100%;
+        align-items: center;
+    }
+}
