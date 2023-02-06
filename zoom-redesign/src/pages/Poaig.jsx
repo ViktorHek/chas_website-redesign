@@ -1,6 +1,6 @@
 function Poaig() {
     return (
-      <div className="Poaig">
+      <div className="Poaig" style={{width: '100%', height: '400px', backgrondColor: '#ffffff'}}>
       </div>
     );
   }
