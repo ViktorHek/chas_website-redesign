@@ -37,6 +37,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  color: #c9e5ff;
 }
 .mwlw-link:hover {
   color: #6476da;

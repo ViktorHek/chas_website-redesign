@@ -1,0 +1,97 @@
+.poaig-main-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 40px 20px;
+  position: relative;
+  max-height: 400px;
+}
+
+.poaig-text-container {
+  display: block;
+  width: 100%;
+}
+
+.poaig-text-container > h1 {
+  font-size: 20px;
+  color: #00053d;
+  font-weight: 500;
+}
+
+.poaig-text-container > p {
+  font-size: 16px;
+  margin: 20px 0;
+  font-weight: 400;
+  color: #00053d;
+}
+
+.poaig-text-container > button {
+  background-color: #00ede7;
+  color: #00053d;
+  font-weight: 500;
+  border: none;
+  max-width: 250px;
+}
+
+.poaig-grid-container {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.poaig-box {
+  border: 1px solid #b5d0f8;
+  border-radius: 20px;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: #fff;
+  width: 40%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+}
+
+.poaig-box:hover {
+  background-color: #b5d0f8;
+  border: 1px solid #0b5cff;
+  box-shadow: 0 16px 20px #0b5cff29;
+}
+
+.poaig-box > p {
+  font-size: 16px;
+  color: #00053d;
+  width: 100%;
+  line-height: 120%;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.poaig-box > div {
+  height: 30px;
+  width: 30px;
+}
+
+.poaig-box > div > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media only screen and (min-width: 770px) {
+  .poaig-main-container {
+    flex-direction: row;
+  }
+  .poaig-text-container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
