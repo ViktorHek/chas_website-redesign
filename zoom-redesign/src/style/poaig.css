@@ -5,7 +5,7 @@
   flex-direction: column;
   padding: 40px 20px;
   position: relative;
-  max-height: 400px;
+  height: 666px;
 }
 
 .poaig-text-container {
@@ -87,6 +87,7 @@
 @media only screen and (min-width: 770px) {
   .poaig-main-container {
     flex-direction: row;
+    height: 520px;
   }
   .poaig-text-container {
     height: 300px;

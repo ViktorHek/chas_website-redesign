@@ -7,7 +7,7 @@ function Nav() {
     setOpen(!open);
   }
   return (
-    <div className="main-nav-container">
+    <nav className="main-nav-container">
       <div className="secondary-header">
         <div className="zoom-logo-container">
           <img
@@ -122,7 +122,7 @@ function Nav() {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 }
 
